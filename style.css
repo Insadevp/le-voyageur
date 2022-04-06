@@ -1,0 +1,86 @@
+.logo{
+    width: 120px;
+    height: 110px;
+}
+.photo{
+    background:url(plage.jpg) no-repeat center center/cover;
+    height:100vh;
+}
+.jumbotronaccueil{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.carousel {
+    position: relative;
+  }
+  .carousel-item img {
+    object-fit: cover;
+  }
+  #carousel-thumbs {
+    background: rgba(255,255,255,.3);
+    bottom: 0;
+    left: 0;
+    padding: 0 50px;
+    right: 0;
+  }
+  #carousel-thumbs img {
+    border: 5px solid transparent;
+    cursor: pointer;
+  }
+  #carousel-thumbs img:hover {
+    border-color: rgba(255,255,255,.3);
+  }
+  #carousel-thumbs .selected img {
+    border-color: #fff;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;
+  }
+  @media all and (max-width: 767px) {
+    .carousel-container #carousel-thumbs img {
+      border-width: 3px;
+    }
+  }
+  @media all and (min-width: 576px) {
+    .carousel-container #carousel-thumbs{
+      position: absolute;
+    }
+  @media all and (max-width: 576px) {
+    .carousel-container #carousel-thumbs {
+      background: #ccccce;
+    }}
+.card1{
+  margin: 20px;
+} 
+.ski1{
+  background:url(/ski1.jpeg) no-repeat center center/cover;
+  height:100vh;
+}
+
+.h3{
+  color: rgb(161, 37, 37);
+}
+
+/*@media all and (max/-width: 576px) {
+  video {
+    width: 20em !important;
+  }
+
+}*/
+.img{
+  display: flex;
+  flex;
+}
